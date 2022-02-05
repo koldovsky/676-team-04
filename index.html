@@ -24,28 +24,34 @@
 
     <!--Roksolana's block start-->
     <!--Featured Dogs Section to do-->
-             <section class="Featured Dogs">
-                <h2 class="Featured Dogs__title">Featured Dogs</h2>
-                <div class="Featured Dogs__stripe>"></div>
-                <div class="Featured Dogs__photos">
-                    <img class="Featured Dogs__photos" src="staffordshire bull terrier.jpg" alt="staffordshire bull terrier">
-                <h3>Stella</h3>
-               <p>Stella is a sweet lab/staff mix, young and small (45 lbs) with a cute white chest and paws. She has already shown her true self: exceptionally loyal and loving, very playful and quickly bonding. She is at her ideal weight now, a pocket pint-size, and is ready to settle into her future forever home!
-               </p> 
-               <a href="#">LEARN MORE</a>
-                    <img class="Featured Dogs__photos" src="cavalier king charles spaniel.jpg" alt="cavalier king charles spaniel">
-               <h3>Toby</h3>
-               <p>Male Cocker Spaniel, Toby, is 5 years old. He is extremely friendly. Not only he loves people and other dogs but even cats. He likes to play with his favorite toys and go for a walk. He loves being with his people and exploring everything around him!
-               </p>
-               <a href="#">LEARN MORE</a>
-               <img class="Featured Dogs__photos" src="tricollor teacup cavapoo.jpg" alt="tricollor teacup cavapoo">
-               <h3>Zuzu</h3> 
-            <p>Zuzu is a lovely five-months-old terrier. She gets along with other dogs and is just a sweet, energetic, cute pup. Zuzu can be a little shy but quickly warms. She's approximately 9 lbs and would not get any he
+    <section class="Featured Dogs">
+        <h2 class="Featured Dogs__title">Featured Dogs</h2>
+        <div class="Featured Dogs__stripe>"></div>
+        <div class="Featured Dogs__photos">
+            <img class="Featured Dogs__photos" src="staffordshire bull terrier.jpg" alt="staffordshire bull terrier">
+            <h3>Stella</h3>
+            <p>Stella is a sweet lab/staff mix, young and small (45 lbs) with a cute white chest and paws. She has
+                already shown her true self: exceptionally loyal and loving, very playful and quickly bonding. She is at
+                her ideal weight now, a pocket pint-size, and is ready to settle into her future forever home!
             </p>
             <a href="#">LEARN MORE</a>
-            </div> 
-            <a href="#contacts-header">ALL DOGS</a>
-             </section>
+            <img class="Featured Dogs__photos" src="cavalier king charles spaniel.jpg"
+                alt="cavalier king charles spaniel">
+            <h3>Toby</h3>
+            <p>Male Cocker Spaniel, Toby, is 5 years old. He is extremely friendly. Not only he loves people and other
+                dogs but even cats. He likes to play with his favorite toys and go for a walk. He loves being with his
+                people and exploring everything around him!
+            </p>
+            <a href="#">LEARN MORE</a>
+            <img class="Featured Dogs__photos" src="tricollor teacup cavapoo.jpg" alt="tricollor teacup cavapoo">
+            <h3>Zuzu</h3>
+            <p>Zuzu is a lovely five-months-old terrier. She gets along with other dogs and is just a sweet, energetic,
+                cute pup. Zuzu can be a little shy but quickly warms. She's approximately 9 lbs and would not get any he
+            </p>
+            <a href="#">LEARN MORE</a>
+        </div>
+        <a href="#contacts-header">ALL DOGS</a>
+    </section>
     <!--Dog Training Videos Section-->
     <section></section>
     <!--Roksolana's block end-->
@@ -53,9 +59,51 @@
 
     <!--Kateryna's block start-->
     <!--Puppies Section-->
-    <section></section>
+    <section class="puppies">
+        <h2 class="puppies-title">Puppies</h2>
+        <span class="puppies-title-stripe"></span>
+        <div id="puppies_carousel" class="puppies_carousel slide">
+            <div class="puppies_carousel-inner">
+                <div class="puppies_carousel_item active">
+                    <img class="img-fluid" src="img/puppies/white-dog-carousel.jpg"
+                        alt="White dog is lying on the floor" width="400">
+                </div>
+                <div class="puppies_carousel_item">
+                    <img class="img-fluid" src="img/puppies/white-dog-red-scarf-carousel.jpg"
+                        alt="White dog with red scarf" width="400">
+                </div>
+                <div class="puppies_carousel_item">
+                    <img class="img-fluid" src="img/puppies/beige-dog-carousel.jpg" alt="Beige dog" width="400">
+                </div>
+                <div class="puppies_carousel_item">
+                    <img class="img-fluid" src="img/puppies/brown-dog-carousel.jpg" alt="Brown dog" width="400">
+                </div>
+                <div class="puppies_carousel_item">
+                    <img class="img-fluid" src="img/puppies/white-dog-yellow-collar-carousel.jpg"
+                        alt="White dog with yellow collar" width="400">
+                </div>
+                <div class="puppies_carousel_item">
+                    <img class="img-fluid" src="img/puppies/white-dog-on-grass-carousel.jpg"
+                        alt="White dog on the grass" width="400">
+                </div>
+            </div>
+        </div>
+        <button onclick="document.location='page/all-puppies.html'">All puppies</button>
+
+    </section>
     <!--Subscribe section form-->
-    <form></form>
+    <div class="puppies_subscribe_litters">
+        <div class="puppies_side-text">
+            <h3 class="puppies_litter-sub-title">Subscribe for new litters</h3>
+            <p class="puppies_sub-text">Haven't found a puppy yet? Not a problem, we will notify you about new litters.
+            </p>
+        </div>
+        <form method="post" action="#/subscribe">
+            <input class="puppies_email" type="email" name="subscriber_email" placeholder="E-mail*" required><br>
+            <input class="puppies_subscribe-button" type="submit" name="subscribe" value="Subscribe">
+        </form>
+    </div>
+
     <!--Kateryna's block end-->
 
 
