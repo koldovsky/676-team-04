@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dog Kennel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +16,7 @@
 <body>
     <!--Bogdan's Fursa Start Block-->
     <header></header>
+    <section></section>
     <!--Bogdan's Fursa end Block-->
 
 
@@ -72,23 +73,23 @@
 
     <!--Roksolana's block start-->
     <!--Featured Dogs Section-->
-    <section class="Featured Dogs">
-        <h2 class="Featured Dogs__title">Featured Dogs</h2>
-        <div class="Featured Dogs__stripe>"></div>
-        <div class="Featured Dogs__all photos">
-            <div class="Featured Dogs__photos">
-                <img class="Featured Dogs__photos" src="img/featured dogs/staffordshire-bull-terrier.jpg"
-                    alt="Staffordshire bull terrier" width="450>
-            </div>
-            <div class=" Featured Dogs__text">
-                <h3>Stella</h3>
-                <p>Stella is a sweet lab/staff mix, young and small (45 lbs) with a cute white chest and paws. She
-                    has
-                    already shown her true self: exceptionally loyal and loving, very playful and quickly bonding.
-                    She is at
-                    her ideal weight now, a pocket pint-size, and is ready to settle into her future forever home!
-                </p>
-                <a href="#">LEARN MORE</a>
+    <section class="Featured-Dogs">
+        <h2 class="Featured-Dogs__title">Featured Dogs</h2>
+        <div class="Featured-Dogs__stripe>"></div>
+        <div class="Featured-Dogs__all-photos">
+            <div class="Featured-Dogs__photos">
+                <img class="Featured-Dogs__photos-item" src="img/featured dogs/staffordshire-bull-terrier.jpg"
+                    alt="Staffordshire bull terrier" width="450">
+                <div class="Featured-Dogs__text">
+                    <h3>Stella</h3>
+                    <p>Stella is a sweet lab/staff mix, young and small (45 lbs) with a cute white chest and paws. She
+                        has
+                        already shown her true self: exceptionally loyal and loving, very playful and quickly bonding.
+                        She is at
+                        her ideal weight now, a pocket pint-size, and is ready to settle into her future forever home!
+                    </p>
+                    <a href="#">LEARN MORE</a>
+                </div>
             </div>
             <div class="Featured Dogs__photos">
                 <img class="Featured Dogs__photos" src="img/featured dogs/cavalier-king-charles-spaniel.jpg"
@@ -236,8 +237,10 @@
                         <p>Barky</p>
                     </div>
                     <p class="description">
-                        Barky is a Central Asian Shepherd Dog who is self-confident, calm, proud and self-sufficient. He
-                        is very brave and has high performance, endurance, and natural territorial instinct. <br>Barky
+                        Barky is a Central Asian Shepherd Dog who is self-confident, calm, proud and
+                        self-sufficient. He
+                        is very brave and has high performance, endurance, and natural territorial instinct.
+                        <br>Barky
                         is known for his intrepidity towards large predators. It is definitely not for novice dog
                         owners.
                     </p>
@@ -252,10 +255,14 @@
                         <p>Luke</p>
                     </div>
                     <p class="description">
-                        Luke is a large, big-boned male dog of impressive height. Standing between 24 and 28 inches at
-                        the shoulder, he has thick white hair. Straight ears and dark sparkling eyes contribute to the
-                        expression of watchfulness, a distinctive feature of this breed. <br> Beware of strangers and
-                        often impatient in relation to other animals, Luke happily shares his frisky, loving side with
+                        Luke is a large, big-boned male dog of impressive height. Standing between 24 and 28 inches
+                        at
+                        the shoulder, he has thick white hair. Straight ears and dark sparkling eyes contribute to
+                        the
+                        expression of watchfulness, a distinctive feature of this breed. <br> Beware of strangers
+                        and
+                        often impatient in relation to other animals, Luke happily shares his frisky, loving side
+                        with
                         family members and friends.
                     </p>
                     <a href="#detailed-info" class="detailed-info">DETAILED INFO</a>
@@ -270,7 +277,8 @@
                     </div>
                     <p class="description">
                         Charlie is a big, dexterous, strong dog with honorable character and has a high level of
-                        intelligence. Being a representative of German Shepherd breed, she is devoted, self-confident,
+                        intelligence. Being a representative of German Shepherd breed, she is devoted,
+                        self-confident,
                         courageous, and stable. She is a lovely family pet and a reliable defender.
                     </p>
                     <a href="#detailed-info" class="detailed-info">DETAILED INFO</a>
@@ -329,7 +337,8 @@
                 </div>
                 <p class="testimonials__carousel_block-name">Kim Bernard</p>
                 <p class="testimonials__carousel_block-dogname">Dogs: Lily and Richie</p>
-                <p class="testimonials__carousel_block-comment">"We've been taking two of our dogs to Dream Dog since
+                <p class="testimonials__carousel_block-comment">"We've been taking two of our dogs to Dream Dog
+                    since
                     its foundation, and we just love this fantastic place! Lily and
                     Richie love it too. To tell truth, we think they even look FORWARD to staying here! Very
                     professional and friendly team. Highly recommended!"</p>
@@ -343,7 +352,8 @@
                 <p class="testimonials__carousel_block-dogname">Director of Media at Legal Company</p>
                 <p class="testimonials__carousel_block-comment">“Quantum is a reliable and professional company that
                     applies high technology and creates exclusive programs for the
-                    clients. We highly appreciate this approach and will definitely continue our fruitful cooperation
+                    clients. We highly appreciate this approach and will definitely continue our fruitful
+                    cooperation
                     with them.”</p>
             </div>
         </div>
@@ -353,83 +363,91 @@
 
     <!--khuda oleh Start Block-->
     <!--Blog-->
-    <section class="Blog"> </section>
-    <h2 class="Blog_title">Blog</h2>
-    <div class="blog__stripe-horizontal-line"></div>
-    <!--Carousel-->
-    <div class="blog__carousel">
-        <span class="prev"><img src="img/services/arrow-left.svg" alt="arrow left" width="30"></span>
-        <span class="next"><img src="img/services/arrow-right.svg" alt="arrow right" width="30"></span>
-        <!--Firs block health-->
-        <article class="blog__carousel">
-            <img src="img/blog pictures/health.jpeg" alt="Dogs" width="100"></img>
-            <p><span class="title">Health</span> | September 22, 2019</p>
-            <h3 class="slide__h3">Is it Safe to Breed Brother and Sister Dogs?</h3>
-            <p class="slide__text">
-                In most cases, it is considered dangerous
-                to breed brother and sister dogs because
-                this can result in various health
-                complications. So, inbreeding is not
-                recommended.</p>
-            <a href="#read_more" class="slide__read-more">Read More</a>
-
-            <!--Second block news-->
-        </article class="block_corousel">
-        <img src="/img/blog pictures/news.jpeg" alt="dog-vs-doctor" width="100"></img>
-        <p><span class="title">News</span> | September 21, 2018</p>
-        <h3 class="slide__h3">A Look at the Health Benefits of Dog Ownership</h3>
-        <p class="slide__text">
-            Dogs offer us boundless love. We just
-            have to open our hearts and arms to gain
-            it. You should take care of your dog as he
-            deserves!
-            recommended.</p>
-        <a href="#read_more" class="slide__read-more">Read More</a>
-        <!--Third block Useful tools-->
-        </article clas="blog__carousel">
-        <img src="img/blog pictures/usefultools.jpeg" alt="dog-and-gadget" width="100"></img>
-        <p><span class="slide_h3">Useful tools</span> | September 20, 2018</p>
-        <h3 clas="slide_text">New Dog App Can Identify Your Dog's Breed with a Photo</h3>
-        <p class="slide_text">
-            There is a wide range of various dog
-            breeds and sometimes it is difficult to
-            identify a parentage of puppy. With a
-            newly released app, it's quick and easy to
-            solve the problem.</p>
-        <a href="#read_more" class="slide_read-more">Read More</a>
-    </div>
-    <div>
-        <a href="#view_all_articles" clas="slide_view_all_articles">View All Articles</a>
-    </div>
-    <!--Contacts-->
-    <section class="Contacts"></section>
-    <h2 class="Contacts_title">Contacts</h2>
-    <div class="contacts__stripe-horizontal-line"></div>
-    <p class="slide_text">If you have any questions or need some more info, feel free to get in touch with us.</p>
-    <p><span class="title_address">Address</span> 3611 Silas Trail Suite 927
-        Port Yasmeenland, PY 20061</p>
-    <p><span class="title_address">Hours</span> Monday - Saturday: 11 AM - 9 PM
-        Sunday: 11 AM - 7 PM</p>
-    <p><span class="title_address">Contacts</span> +1 (234) 567 89 00
-        dream.dog@email.com</p>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83910.11420397439!2d24.647089191463703!3d48.911751844620206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c1134ecde1fd%3A0xc4573d3ae24e5d27!2z0KDQsNGC0YPRiNCw!5e0!3m2!1suk!2sua!4v1644343781903!5m2!1suk!2sua"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <section class="Blog">
+        <h2 class="Blog_title">Blog</h2>
+        <div class="blog__stripe-horizontal-line"></div>
+        <!--Carousel-->
+        <div class="blog__carousel">
+            <span class="prev"><img src="img/services/arrow-left.svg" alt="arrow left" width="30"></span>
+            <span class="next"><img src="img/services/arrow-right.svg" alt="arrow right" width="30"></span>
+            <!--Firs block health-->
+            <div class="blog__carousel">
+                <img src="img/blog pictures/health.jpeg" alt="Dogs" width="100"></img>
+                <p><span class="title">Health</span> | September 22, 2019</p>
+                <h3 class="slide__h3">Is it Safe to Breed Brother and Sister Dogs?</h3>
+                <p class="slide__text">
+                    In most cases, it is considered dangerous
+                    to breed brother and sister dogs because
+                    this can result in various health
+                    complications. So, inbreeding is not
+                    recommended.</p>
+                <a href="#read_more" class="slide__read-more">Read More</a>
+            </div>
+            <!--Second block news TODO add class to DIV element-->
+            <div>
+                <img src="/img/blog pictures/news.jpeg" alt="dog-vs-doctor" width="100"></img>
+                <p><span class="title">News</span> | September 21, 2018</p>
+                <h3 class="slide__h3">A Look at the Health Benefits of Dog Ownership</h3>
+                <p class="slide__text">
+                    Dogs offer us boundless love. We just
+                    have to open our hearts and arms to gain
+                    it. You should take care of your dog as he
+                    deserves!
+                    recommended.</p>
+                <a href="#read_more" class="slide__read-more">Read More</a>
+            </div>
+            <!--Third block Useful tools TODO add class to DIV element-->
+            <div>
+                <img src="img/blog pictures/usefultools.jpeg" alt="dog-and-gadget" width="100"></img>
+                <p><span class="slide_h3">Useful tools</span> | September 20, 2018</p>
+                <h3 clas="slide_text">New Dog App Can Identify Your Dog's Breed with a Photo</h3>
+                <p class="slide_text">
+                    There is a wide range of various dog
+                    breeds and sometimes it is difficult to
+                    identify a parentage of puppy. With a
+                    newly released app, it's quick and easy to
+                    solve the problem.</p>
+                <a href="#read_more" class="slide_read-more">Read More</a>
+            </div>
+        </div>
         <div>
-            <input type="text" placeholder="Enter your full name">
-    </form>
-    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <input type="text" placeholder="Enter your phone number">
-    </form>
-    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <input type="text" placeholder="Enter your E-mail">
-    </form>
-    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <input type="text" placeholder="Tap your message">
-    </form>
-    <button type="submit">Submit</button>
-    </div>
+            <a href="#view_all_articles" class="slide_view_all_articles">View All Articles</a>
+        </div>
+    </section>
+    <!--Contacts-->
+    <section class="Contacts">
+        <div>
+            <h2 class="Contacts_title">Contacts</h2>
+            <div class="contacts__stripe-horizontal-line"></div>
+            <p class="slide_text">If you have any questions or need some more info, feel free to get in touch with us.
+            </p>
+            <p><span class="title_address">Address</span> 3611 Silas Trail Suite 927
+                Port Yasmeenland, PY 20061</p>
+            <p><span class="title_address">Hours</span> Monday - Saturday: 11 AM - 9 PM
+                Sunday: 11 AM - 7 PM</p>
+            <p><span class="title_address">Contacts</span> +1 (234) 567 89 00
+                dream.dog@email.com</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83910.11420397439!2d24.647089191463703!3d48.911751844620206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c1134ecde1fd%3A0xc4573d3ae24e5d27!2z0KDQsNGC0YPRiNCw!5e0!3m2!1suk!2sua!4v1644343781903!5m2!1suk!2sua"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+            <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+                <div>
+                    <input type="text" placeholder="Enter your full name">
+            </form>
+            <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+                <input type="text" placeholder="Enter your phone number">
+            </form>
+            <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+                <input type="text" placeholder="Enter your E-mail">
+            </form>
+            <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+                <input type="text" placeholder="Tap your message">
+            </form>
+            <button type="submit">Submit</button>
+        </div>
+    </section>
     <!--Footer-->
     <footer></footer>
     <!--khuda oleh end Block-->
