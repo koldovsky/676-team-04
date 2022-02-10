@@ -186,7 +186,7 @@
         <section class="puppies">
             <h2 class="puppies-title">Puppies</h2>
             <span class="puppies-title-stripe"></span>
-            <div id="puppies_carousel" class="puppies_carousel slide">
+            <div id="puppies_carousel" class="puppies_carousel-slide">
                 <div class="puppies_carousel-inner">
                     <div class="puppies_carousel_item active">
                         <img class="img-fluid" src="img/puppies/white-dog-carousel.jpg"
@@ -212,8 +212,7 @@
                     </div>
                 </div>
             </div>
-            <button onclick="document.location='page/all-puppies.html'">All puppies</button>
-
+            <a href="#all-puppies" class="all-puppies button">All puppies</a>
         </section>
         <!--Subscribe section form-->
         <div class="puppies_subscribe_litters">
@@ -222,7 +221,15 @@
                 <p class="puppies_sub-text">Haven't found a puppy yet? Not a problem, we will notify you about new
                     litters.
                 </p>
+                </div>
+                <form method="post" action="#/subscribe">
+                    <input class="puppies_email" type="email" name="subscriber_email" placeholder="E-mail*"
+                        required><br>
+                    <input class="puppies_subscribe-button" type="submit" name="subscribe" value="Subscribe">
+                </form>
             </div>
+             <!--Kateryna's block end-->
+
             <div class="testimonials__carousel_block">
                 <div class="testimonials__carousel_block-imgwrapper">
                     <img class="testimonials__carousel_block-photo" src="img/Testimonials/Kim-Bernard.jpg"
@@ -340,9 +347,6 @@
                         <input class="puppies_subscribe-button" type="submit" name="subscribe" value="Subscribe">
                     </form>
             </div>
-
-            <!--Kateryna's block end-->
-
 
             <!--Nadiia's block start-->
             <!--Our Services-->
