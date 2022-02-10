@@ -1,0 +1,82 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li {
+    display: inline-block;
+}
+.navbar-menu li a {
+    display: inline-block;
+    color: #553c29;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.7s ease-in-out;
+    font-weight: bolder;
+}
+.navbar-menu li a:hover{
+    opacity: 1;
+    color: red;
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 210px;
+}
+.navbar-logo {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #553c29;
+    padding-left: 100px;
+    margin-left: 70px;
+}
+.button_header {
+    background-color: #f8aa03;
+    color:white;
+    border-radius: 100px;
+    padding: 10px 20px;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 440px;
+    margin-left: 140px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text_well {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 130px;
+    color: white;
+    font-size: 94px;
+    font-weight: 700;
+
+}
+.text_since {
+    position: absolute;
+    color: white;
+    margin-top: 380px;
+    margin-left: 130px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text_breeders {
+    color: white;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 130px;
+    font-size: 94px;
+    font-weight: 700;
+}
