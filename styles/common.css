@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in,
+    border-color 0.2s ease-in, box-shadow 0.2s ease-in,
+    -webkit-box-shadow 0.2s ease-in;
+}
+section {
+  padding: 85px 0 100px 0;
+}
+section h2 {
+  text-align: center;
+  word-wrap: break-word;
+  color: #553c29;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  padding-bottom: 31.5px;
+}

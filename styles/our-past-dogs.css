@@ -1,0 +1,71 @@
+.our-past-dogs__container {
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.our-past-dogs__container_block:first-of-type {
+  margin-top: 70px;
+}
+.our-past-dogs__container_block {
+  margin-top: 30px;
+  background: #f7f3e7;
+  padding: 60px 70px;
+  display: flex;
+}
+.our-past-dogs__container_block:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.our-past-dogs__container_block img {
+  object-position: 44.908% 72.119%;
+  width: 515px;
+  max-height: 431px;
+  object-fit: cover;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.our-past-dogs__container_block .block__text {
+  padding: 60px 70px;
+}
+
+.block__text_h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #553c29;
+  font-weight: bold;
+  text-transform: none;
+  display: flex;
+  justify-content: space-between;
+  width: 253px;
+}
+.block__text_h3 span {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.block__text_description {
+  margin-top: 30px;
+  color: rgb(98, 98, 98);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.our-past-dogs__container_block .detailed-info {
+  display: block;
+  margin-top: 28px;
+  color: #f9be4f;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.our-past-dogs__container_block .detailed-info:hover {
+  color: #f9575c;
+  text-decoration: underline;
+}
