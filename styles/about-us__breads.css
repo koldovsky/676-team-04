@@ -46,7 +46,7 @@ body{
   font-family: 'Nunito', sans-serif;
     font-weight: 300;
 }
-.section_about-us {
+.about-us {
     background: #f8f4e9;
     text-align: center;
 }
@@ -55,7 +55,7 @@ body{
 .header_section_item h2:after {content:''; display: inline-block; width: 100px; height: 4px; background:#f8aa03; border-radius:4px; position: absolute; left:50%; bottom:0px; margin-left: -50px;}
 
 /**text about**/
-.section_about-text{
+.about-text{
      max-width: 600px;
      display:inline-block;
    
@@ -64,7 +64,7 @@ body{
     
     
 }
-.section_about-text p{
+.about-text p{
     margin-top: 45px;
     color:rgb(104,100,100);
     font-size:20px;
