@@ -181,7 +181,7 @@
         <section class="puppies">
             <h2 class="puppies-title">Puppies</h2>
             <span class="puppies-title-stripe"></span>
-            <div id="puppies_carousel" class="puppies_carousel slide">
+            <div id="puppies_carousel" class="puppies_carousel-slide">
                 <div class="puppies_carousel-inner">
                     <div class="puppies_carousel_item active">
                         <img class="img-fluid" src="img/puppies/white-dog-carousel.jpg"
@@ -207,8 +207,7 @@
                     </div>
                 </div>
             </div>
-            <button onclick="document.location='page/all-puppies.html'">All puppies</button>
-
+            <a href="#all-puppies" class="all-puppies button">All puppies</a>
         </section>
         <!--Subscribe section form-->
         <div class="puppies_subscribe_litters">
@@ -218,32 +217,11 @@
                     litters.
                 </p>
             </div>
-            <div class="testimonials__carousel_block">
-                <div class="testimonials__carousel_block-imgwrapper">
-                    <img class="testimonials__carousel_block-photo" src="img/Testimonials/Kim-Bernard.jpg"
-                        alt="Kim Bernard" width="100" height="100">
-                </div>
-                <p class="testimonials__carousel_block-name">Kim Bernard</p>
-                <p class="testimonials__carousel_block-dogname">Dogs: Lily and Richie</p>
-                <p class="testimonials__carousel_block-comment">"We've been taking two of our dogs to Dream Dog
-                    since
-                    its foundation, and we just love this fantastic place! Lily and
-                    Richie love it too. To tell truth, we think they even look FORWARD to staying here! Very
-                    professional and friendly team. Highly recommended!"</p>
-            </div>
-            <div class="testimonials__carousel_block">
-                <div class="testimonials__carousel_block-imgwrapper">
-                    <img class="testimonials__carousel_block-photo" src="img/Testimonials/Julia-Macgorg.jpg"
-                        alt="julia Macgorg" width="100" height="100">
-                </div>
-                <p class="testimonials__carousel_block-name">Julia Macgorg</p>
-                <p class="testimonials__carousel_block-dogname">Director of Media at Legal Company</p>
-                <p class="testimonials__carousel_block-comment">“Quantum is a reliable and professional company that
-                    applies high technology and creates exclusive programs for the
-                    clients. We highly appreciate this approach and will definitely continue our fruitful
-                    cooperation
-                    with them.”</p>
-            </div>
+            <form method="post" action="#/subscribe">
+                <input class="puppies_email" type="email" name="subscriber_email" placeholder="E-mail*" required><br>
+                <input class="puppies_subscribe-button" type="submit" name="subscribe" value="Subscribe">
+            </form>
+        </div>
         </div>
         </section>
         <!--Kateryna's End block-->
@@ -481,19 +459,18 @@
         </section>
         <!--Artem's End block-->
 
-
         <!--khuda oleh Start Block-->
         <!--Blog-->
-        <section class="Blog">
-            <h2 class="Blog_title">Blog</h2>
+        <section class="blog">
+            <h2 class="blog_title">Blog</h2>
             <div class="blog__stripe-horizontal-line"></div>
             <!--Carousel-->
             <div class="blog__carousel">
                 <span class="prev"><img src="img/services/arrow-left.svg" alt="arrow left" width="30"></span>
                 <span class="next"><img src="img/services/arrow-right.svg" alt="arrow right" width="30"></span>
                 <!--Firs block health-->
-                <div class="blog__carousel-item">
-                    <img src="img/blog pictures/health.jpeg" alt="Dogs" width="100">
+                <div class="blog__carousel_item">
+                    <img src="img/blog-pictures/health.jpeg" alt="Dogs" width="100">
                     <p><span class="title">Health</span> | September 22, 2019</p>
                     <h3 class="slide__h3">Is it Safe to Breed Brother and Sister Dogs?</h3>
                     <p class="slide__text">
@@ -504,9 +481,9 @@
                         recommended.</p>
                     <a href="#read_more" class="slide__read-more">Read More</a>
                 </div>
-                <!--Second block news TODO add class to DIV element-->
-                <div>
-                    <img src="/img/blog pictures/news.jpeg" alt="dog-vs-doctor" width="100">
+                <!--Second block news-->
+                <div class="blog__carousel_item">
+                    <img src="img/blog-pictures/news.jpeg" alt="dog-vs-doctor" width="100">
                     <p><span class="title">News</span> | September 21, 2018</p>
                     <h3 class="slide__h3">A Look at the Health Benefits of Dog Ownership</h3>
                     <p class="slide__text">
@@ -517,9 +494,9 @@
                         recommended.</p>
                     <a href="#read_more" class="slide__read-more">Read More</a>
                 </div>
-                <!--Third block Useful tools TODO add class to DIV element-->
-                <div>
-                    <img src="img/blog pictures/usefultools.jpeg" alt="dog-and-gadget" width="100">
+                <!--Third block useful -->
+                <div class="blog__carousel_item">
+                    <img src="img/blog-pictures/usefultools.jpeg" alt="dog-and-gadget" width="100">
                     <p><span class="slide_h3">Useful tools</span> | September 20, 2018</p>
                     <h3 class="slide_text">New Dog App Can Identify Your Dog's Breed with a Photo</h3>
                     <p class="slide_text">
@@ -536,11 +513,12 @@
             </div>
         </section>
         <!--Contacts-->
-        <section class="Contacts">
+        <section class="contacts">
             <div>
-                <h2 class="Contacts_title">Contacts</h2>
+                <h2 class="contacts_title">Contacts</h2>
                 <div class="contacts__stripe-horizontal-line"></div>
-                <p class="slide_text">If you have any questions or need some more info, feel free to get in touch with
+                <p class="slide_text">If you have any questions or need some more info, feel free to get in touch
+                    with
                     us.
                 </p>
                 <p><span class="title_address">Address</span> 3611 Silas Trail Suite 927
@@ -562,12 +540,9 @@
                         <input type="text" placeholder="Tap your message">
                         <button type="submit">Submit</button>
                     </div>
-                    <form method="post" action="#/subscribe">
-                        <input class="puppies_email" type="email" name="subscriber_email" placeholder="E-mail*"
-                            required><br>
-                        <input class="puppies_subscribe-button" type="submit" name="subscribe" value="Subscribe">
-                    </form>
+                </form>
             </div>
+        </section>
     </main>
     <!--Footer-->
     <footer class="dream dog">
