@@ -1,0 +1,71 @@
+.featured-dogs__folder {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .featured-dogs__folder__bloc:first-of-type {
+    margin-top: 70px;
+  }
+  .featured-dogs__folder__bloc {
+    margin-top: 30px;
+    background: #f7f3e7;
+    padding: 60px 70px;
+    display: flex;
+  }
+  .featured-dogs__folder__bloc:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .featured-dogs__folder__bloc img {
+    object-position: 44.908% 72.119%;
+    width: 515px;
+    max-height: 431px;
+    object-fit: cover;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .featured-dogs__folder__bloc .bloc__text {
+    padding: 60px 70px;
+  }
+  
+  .bloc__text__h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #553c29;
+    font-weight: bold;
+    text-transform: none;
+    display: flex;
+    justify-content: space-between;
+    width: 253px;
+  }
+  .bloc__text__h3 span {
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+  .bloc__text__explanation {
+    margin-top: 30px;
+    color: rgb(98, 98, 98);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  .featured-dogs__folder__bloc .learn-more {
+    display: block;
+    margin-top: 28px;
+    color: #f9be4f;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+  .featured-dogs__folder__part .learn-more:hover {
+    color: #f9575c;
+    text-decoration: underline;
+  }
+  
