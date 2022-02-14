@@ -1,26 +1,26 @@
-.section_contacts{
-    display: flex;
+section{
+display: grid;
+grid-template-columns:1fr 1fr; 
 }
 
-
 .contacts_container{
-border: 1px solid black;
-display: flex;
-flex-wrap: wrap;
-justify-content: left;
-position:relative;
-right: 0;
-width: 50%;
-
+border: 1px solid black
 }
 
 .form_container{
 border: 1px solid black;
-display: block;
-    
+align-items:center;
 }
-.contacts_title .contact_line{
-    display:inline; 
+
+.form_text{
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+    width: min-content;
+}
+
+.contacts_title{
+    display:block; 
     padding: 20px;
     margin::40px;
     position: relative;
@@ -36,5 +36,4 @@ display: block;
     font-weight: bold;
     line-height: 1.6;
     letter-spacing: 0;
-   
 }
