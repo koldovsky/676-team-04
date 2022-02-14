@@ -1,12 +1,40 @@
+.section_contacts{
+    display: flex;
+}
+
+
 .contacts_container{
-    display: inline;
+border: 1px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content: left;
+position:relative;
+right: 0;
+width: 50%;
 
 }
-.contacts_title{
-    display:inline; 
-    padding: 100px;
+
+.form_container{
+border: 1px solid black;
+display: block;
+    
 }
-.contact_line{
-    display: inline;
-  
+.contacts_title .contact_line{
+    display:inline; 
+    padding: 20px;
+    margin::40px;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.title_address{
+    color:var(--title-button-text-color);
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 0;
+   
 }
