@@ -3,7 +3,7 @@
     text-align: center;
     padding: 85px 0 100px 0;
 }
-section h2 {
+.dog-training-videos__title {
     text-align: center;
     word-wrap: break-word;
     color: var(--text-hover-color);

@@ -73,6 +73,10 @@ section h2 {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
+.details_link:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
 
 /*Dog names or breeds types of dogs*/
 .dogs-names-breeds-text {
@@ -81,10 +85,7 @@ section h2 {
   font-size: 22px;
 }
 
-.details_link:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
+
 
 /*Main button in each block*/
 .main-btn {
