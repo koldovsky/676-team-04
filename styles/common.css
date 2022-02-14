@@ -2,13 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
 
-:root{
+:root {
   --title-button-text-color: #553c29;
   --button-hover-line-color: #f8aa03;
   --details-link-border: #f9be4f;
   --link-hover-color: #f9575c;
   --default-paragraph-text: #686464;
+  --secondary-paragraph-text: #626262;
   --text-hover-color: #ffffff;
+  --section-background: #f7f3e7;
 }
 
 * {
@@ -34,12 +36,13 @@ section h2 {
   color: var(--title-button-text-color);
   text-transform: none;
   letter-spacing: 0;
-  font-size: 50px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 1;
   padding-bottom: 31.5px;
   margin-top: 30px;
 }
+
 /*Line under H2 of each section*/
 .horizontal-line {
   width: 90px;
@@ -48,9 +51,9 @@ section h2 {
   background-color: var(--button-hover-line-color);
   margin: auto;
 }
+
 /*Default paragraph text*/
 .paragraph_default_text {
-  
   color: var(--default-paragraph-text);
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -61,6 +64,7 @@ section h2 {
   letter-spacing: 0;
   text-transform: none;
 }
+
 /*Block end links (Learn more etc.)*/
 .details_link {
   font-size: 15px;
@@ -69,16 +73,19 @@ section h2 {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
+
 /*Dog names or breeds types of dogs*/
-.dogs-names-breeds-text{
-color: var(--title-button-text-color);
-font-family: "Nunito", sans-serif;
-font-size: 22px;
+.dogs-names-breeds-text {
+  color: var(--title-button-text-color);
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
 }
-.details_link:hover{
+
+.details_link:hover {
   color: var(--link-hover-color);
   text-decoration: underline;
-} 
+}
+
 /*Main button in each block*/
 .main-btn {
   display: block;
@@ -97,11 +104,25 @@ font-size: 22px;
   border-radius: 22px;
   margin-bottom: 30px;
 }
-.main-btn-frame{
-    margin: 50px;
+
+.main-btn-frame {
+  margin: 50px;
 }
-.main-btn:hover{
+
+.main-btn:hover {
   cursor: pointer;
   background-color: var(--button-hover-line-color);
   color: var(--text-hover-color);
+}
+
+@media (min-width: 768px) {
+  section h2 {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 992px) {
+  section h2 {
+    font-size: 50px;
+  }
 }
