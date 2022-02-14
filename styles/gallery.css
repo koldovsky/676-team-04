@@ -59,7 +59,7 @@
         }
         
    }
-@media (min-width: 640px, max-width: 1099px){
+@media (min-width: 640px) and (max-width: 1099px){
     .gallery__photos{
         flex-direction: row;
         flex-wrap: wrap;
