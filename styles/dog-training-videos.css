@@ -1,0 +1,13 @@
+.dog-training-videos {
+    background: #553c29;
+    text-align: center;
+    padding: 85px 0 100px 0;
+}
+section h2 {
+    text-align: center;
+    word-wrap: break-word;
+    color: var(--text-hover-color);
+    font-family: Nunito, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
