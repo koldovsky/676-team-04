@@ -1,71 +1,174 @@
-.our-past-dogs__container {
-  padding: 0 15px;
-  width: 100%;
-  max-width: 1200px;
+.our-past-dogs {
+  padding: 85px 0 95px 0;
   margin: 0 auto;
 }
-.our-past-dogs__container_block:first-of-type {
-  margin-top: 70px;
-}
-.our-past-dogs__container_block {
-  margin-top: 30px;
-  background: #f7f3e7;
-  padding: 60px 70px;
-  display: flex;
-}
-.our-past-dogs__container_block:nth-child(even) {
-  flex-direction: row-reverse;
+
+.our-past-dogs__container {
+  padding: 0 24px;
 }
 
-.our-past-dogs__container_block img {
-  object-position: 44.908% 72.119%;
-  width: 515px;
-  max-height: 431px;
+.our-past-dogs__container_item:first-of-type {
+  margin-top: 55px;
+}
+
+.our-past-dogs__container_item {
+  background: var(--section-background);
+  display: flex;
+  flex-direction: column;
+  padding: 39px 43px;
+  margin-top: 50px;
+}
+
+.our-past-dogs__container_item img {
+  display: block;
+  width: 100%;
+  max-height: 230px;
   object-fit: cover;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  object-position: 44.908% 72.119%
 }
 
-.our-past-dogs__container_block .block__text {
-  padding: 60px 70px;
+.our-past-dogs__container_item .detailed-info {
+  display: block;
+  margin-top: 28px;
 }
 
-.block__text_h3 {
-  font-size: 20px;
-  line-height: 1.4;
-  font-family: "Lato", sans-serif;
-  text-decoration: none;
-  font-style: normal;
-  letter-spacing: 0;
-  color: #553c29;
+.item__text {
+  padding: 39px 0;
+  width: 100%;
+}
+
+.item__text_h3 {
+  font-size: 18px;
   font-weight: bold;
-  text-transform: none;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: var(--title-button-text-color);
   display: flex;
-  justify-content: space-between;
-  width: 253px;
+  flex-direction: column;
 }
-.block__text_h3 span {
+
+.item__text_h3 span {
+  margin-top: 5px;
   font-family: sans-serif;
   font-weight: 300;
 }
-.block__text_description {
+
+.item__text_description {
   margin-top: 30px;
-  color: rgb(98, 98, 98);
+  color: var(--secondary-paragraph-text);
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 0;
 }
-.our-past-dogs__container_block .detailed-info {
-  display: block;
-  margin-top: 28px;
-  color: #f9be4f;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+
+.our-past-dogs .main-btn {
+  margin-top: 50px;
 }
-.our-past-dogs__container_block .detailed-info:hover {
-  color: #f9575c;
-  text-decoration: underline;
+
+@media (min-width:480px) {
+  .item__text {
+    padding: 39px 43px;
+  }
+
+  .our-past-dogs__container_item img {
+    max-height: 360px;
+    min-width: 290px;
+  }
+}
+
+@media(min-width:768px) {
+  .our-past-dogs__container {
+    padding: 0 32px;
+  }
+
+  .our-past-dogs__container_item {
+    padding: 46px 52px;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  .our-past-dogs__container_item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .our-past-dogs__container_item:first-of-type {
+    margin-top: 70px;
+  }
+
+  .our-past-dogs__container_item img {
+    height: 100%;
+    width: 40vw;
+    max-height: 530px;
+  }
+
+  .item__text {
+    padding: 46px 52px;
+    width: 100%;
+  }
+
+  .item__text_h3 {
+    font-size: 19px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76%;
+  }
+
+  .item__text_h3 span {
+    margin-top: 0;
+  }
+
+  .our-past-dogs .main-btn {
+    margin-top: 60px;
+  }
+}
+
+@media(min-width:992px) {
+  .our-past-dogs {
+    padding: 85px 0 100px 0;
+  }
+
+  .our-past-dogs__container {
+    padding: 0 40px;
+  }
+
+  .our-past-dogs__container_item {
+    padding: 60px 70px;
+  }
+
+  .item__text {
+    padding: 60px 70px;
+  }
+
+  .item__text_h3 {
+    font-size: 20px;
+  }
+
+  .our-past-dogs__container_item img {
+    max-height: 440px;
+  }
+}
+
+@media(min-width:1280px) {
+  .our-past-dogs {
+    padding: 85px 0 90px 0;
+    max-width: 1200px;
+  }
+
+  .our-past-dogs__container {
+    padding: 0 15px;
+    margin: 0 40px;
+  }
+
+  .item__img img {
+    width: 515px;
+    max-height: 421px;
+  }
+}
+
+@media(min-width:1440px) {
+  .our-past-dogs__container {
+    margin: 0 20px;
+  }
 }
