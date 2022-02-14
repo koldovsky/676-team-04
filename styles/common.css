@@ -38,6 +38,7 @@ section h2 {
   font-weight: 700;
   line-height: 1;
   padding-bottom: 31.5px;
+  margin-top: 30px;
 }
 /*Line under H2 of each section*/
 .horizontal-line {
@@ -94,6 +95,7 @@ font-size: 22px;
   border: 2px solid var(--details-link-border);
   padding: 12px 28px;
   border-radius: 22px;
+  margin-bottom: 30px;
 }
 .main-btn-frame{
     margin: 50px;
