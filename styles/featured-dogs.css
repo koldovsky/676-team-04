@@ -1,22 +1,22 @@
-  .featured-dogs__folder {
+  .featured-dogs__container {
     padding: 0 15px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
   }
-  .featured-dogs__folder__bloc:first-of-type {
+  .featured-dogs__container__bloc:first-of-type {
     margin-top: 70px;
   }
-  .featured-dogs__folder__bloc {
+  .featured-dogs__container__bloc {
     margin-top: 30px;
     background: #f7f3e7;
     padding: 60px 70px;
     display: flex;
   }
-  .featured-dogs__folder__bloc:nth-child(even) {
+  .featured-dogs__container__bloc:nth-child(even) {
     flex-direction: row-reverse;
   }
-  .featured-dogs__folder__bloc img {
+  .featured-dogs__container__bloc img {
     object-position: 44.908% 72.119%;
     width: 512px;
     height: 341px;
@@ -27,7 +27,7 @@
     position: relative;
   }
   
-  .featured-dogs__folder__bloc .bloc__text {
+  .featured-dogs__container__bloc .bloc__text {
     padding: 60px 70px;
   }
   .bloc__text__h3 {
@@ -56,7 +56,7 @@
     font-weight: 400;
     letter-spacing: 0;
   }
-  .featured-dogs__folder__bloc .learn-more {
+  .featured-dogs__container__bloc .learn-more {
     display: block;
     margin-top: 28px;
     color: #f9be4f;
@@ -64,7 +64,7 @@
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
   }
-  .featured-dogs__folder__part .learn-more:hover {
+  .featured-dogs__container__part .learn-more:hover {
     color: #f9575c;
     text-decoration: underline;
   }
