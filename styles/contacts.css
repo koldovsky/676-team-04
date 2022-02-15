@@ -1,6 +1,6 @@
 .section_contacts{
 display: grid;
-grid-template-columns:1fr 1fr; 
+grid-template-columns: 1fr 1fr; 
 justify-content: center;
 align-items: center;
 }
@@ -24,9 +24,9 @@ display: block;
 }
 
 .contacts_title{
-    display:block; 
+    display: block; 
     padding: 20px;
-    margin::40px;
+    margin:40px;
     position: relative;
     max-width: 100%;
     word-wrap: break-word;
@@ -42,9 +42,42 @@ display: block;
     letter-spacing: 0;
 }
 .text_form{
-color:var( --section-background);
+color: var( --section-background);
 }
-.contacts_input_name, .contacts_input_number, .contacts_input_email, .contacts_input_message{
-    display:block;
-    
+.contacts_input_name, .contacts_input_number, .contacts_input_email, .contacts_input_message {
+    display: block;
+    background-color: #f7f3e7;
+    margin-top: 12px;
+    width: 400px;
+    appearance: none;
+    text-overflow: ellipsis;
+    border: 0;
+    font-family: inherit;
+    padding: 14px 28px;
+    font-size: 15px;
+    border-radius: 22px;
+    line-height: 1.2;
+    text-align: start;
+}
+.contacts_input_message {
+    line-height: 10.2;
+}
+.contacts_input_button{
+    border-style: solid;
+    border-color: transparent;
+    margin-top: 12px;
+    width: 400px;
+    text-overflow: ellipsis;
+    border: 0;
+    font-family: inherit;
+    padding: 14px 28px;
+    font-size: 15px;
+    border-radius: 22px;
+    line-height: 1.2;
+    text-align: center;
+    background-color:#f43d66;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 50px;
 }
