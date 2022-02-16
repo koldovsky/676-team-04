@@ -6,7 +6,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: #f7f3e7;
+    background: rgba(247,243,231,0.7);
+   
 }
 .gallery__photos{
     margin: 25px 0;
@@ -52,11 +53,17 @@
          height: 300px;
     }
     .gallery{
+        
+        background: rgba(247,243,231,0.7);
+        }
+    .gallery-wrapper{
         background-image: url(../img/gallery-dogs/gallery-background.png);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        }
+        background-size: cover;
+        
+    }
         
    }
 @media (min-width: 640px) and (max-width: 1099px){
@@ -75,11 +82,15 @@
          height: 300px;
     }
      .gallery{
+        
+        background: rgba(247,243,231,0.7);
+    }
+    .gallery-wrapper{
         background-image: url(../img/gallery-dogs/gallery-background.png);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-size: cover;
     }
-    
      
 }

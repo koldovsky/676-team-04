@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Kennel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -395,84 +397,117 @@
         <!--Artem's Start block-->
         <!--Gallery-->
 
-        <section class="gallery">
-            <h2 class="gallery__title">Gallery</h2>
-            <div class="horizontal-line"></div>
-            <div class="gallery__stripe"></div>
-            <div class="gallery__photos">
-                <div class="gallery__photo-photos-wrapper">
-                    <img class="gallery__photos-photo" src="img/gallery-dogs/buldog-dog.jpg" alt="Dog Bulldog">
+
+        <section class="gallery-wrapper">
+            <div class="gallery">
+                <h2 class="gallery__title">Gallery</h2>
+                <div class="horizontal-line"></div>
+                <div class="gallery__stripe"></div>
+                <div class="gallery__photos">
+                    <div class="gallery__photo-photos-wrapper">
+                        <img class="gallery__photos-photo" src="img/gallery-dogs/buldog-dog.jpg" alt="Dog Bulldog">
+                    </div>
+                    <div class="gallery__photo-photos-wrapper">
+                        <img class="gallery__photos-photo" src="img/gallery-dogs/cubin-dog.jpg" alt="Cubin Dog">
+                    </div>
+                    <div class="gallery__photo-photos-wrapper">
+                        <img class="gallery__photos-photo" src="img/gallery-dogs/german-dog.jpg" alt="German Dog">
+                    </div>
+                    <div class="gallery__photo-photos-wrapper">
+                        <img class="gallery__photos-photo pudel__dog" src="img/gallery-dogs/pudel-dog.jpg"
+                            alt="Pudel Dog">
+                    </div>
+                    <div class=" gallery__photo-photos-wrapper">
+                        <img class=" gallery__photos-photo sorabi__dog" src="img/gallery-dogs/sorabi-dog.jpg"
+                            alt="Sorabi Dog">
+                    </div>
+                    <div class="gallery__photo-photos-wrapper">
+                        <img class="gallery__photos-photo" src="img/gallery-dogs/spaniel-dog.jpg" alt="Spaniel Dog">
+                    </div>
                 </div>
-                <div class="gallery__photo-photos-wrapper">
-                    <img class="gallery__photos-photo" src="img/gallery-dogs/cubin-dog.jpg" alt="Cubin Dog">
+                <div class="gallery__photo-link-box">
+                    <a class="gallery__photo-link main-btn" href="gallery.html">All Photos</a>
                 </div>
-                <div class="gallery__photo-photos-wrapper">
-                    <img class="gallery__photos-photo" src="img/gallery-dogs/german-dog.jpg" alt="German Dog">
-                </div>
-                <div class="gallery__photo-photos-wrapper">
-                    <img class="gallery__photos-photo pudel__dog" src="img/gallery-dogs/pudel-dog.jpg" alt="Pudel Dog">
-                </div>
-                <div class=" gallery__photo-photos-wrapper">
-                    <img class=" gallery__photos-photo sorabi__dog" src="img/gallery-dogs/sorabi-dog.jpg"
-                        alt="Sorabi Dog">
-                </div>
-                <div class="gallery__photo-photos-wrapper">
-                    <img class="gallery__photos-photo" src="img/gallery-dogs/spaniel-dog.jpg" alt="Spaniel Dog">
-                </div>
-            </div>
-            <div class="gallery__photo-link-box">
-                <a class="gallery__photo-link main-btn" href="gallery.html">All Photos</a>
             </div>
         </section>
+
 
         <!--Testimonials-->
         <section class="testimonials">
             <h2 class="testimonials__title">Testimonials</h2>
             <div class="horizontal-line"></div>
             <div class="testimonials__carousel">
-                <div class="testimonials__carousel_block">
-                    <div class="testimonials__carousel_block-imgwrapper">
-                        <img class="testimonials__carousel_block-photo" src="img/testimonials/amanda-peterson.jpg"
-                            alt="Amanda Peterson">
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonials__carousel_block">
+                                <div class="testimonials__carousel_block-imgwrapper">
+                                    <img class="testimonials__carousel_block-photo"
+                                        src="img/testimonials/amanda-peterson.jpg" alt="Amanda Peterson">
+                                </div>
+                                <p class="testimonials__carousel_block-name">Amanda Peterson</p>
+                                <p class="testimonials__carousel_block-dogname">Dog: Body</p>
+                                <p class="testimonials__carousel_block-comment paragraph_default_text">"I was happy to
+                                    work with
+                                    Quantum because their
+                                    efficient solutions helped us improve plenty of business processes. As a
+                                    result, our clients receive their products faster and are more satisfied with our
+                                    services.
+                                    They
+                                    deserve the highes grade!"</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonials__carousel_block">
+                                <div class="testimonials__carousel_block-imgwrapper">
+                                    <img class="testimonials__carousel_block-photo"
+                                        src="img/testimonials/kim-bernard.jpg" alt="Kim Bernard">
+                                </div>
+                                <p class="testimonials__carousel_block-name">Kim Bernard</p>
+                                <p class="testimonials__carousel_block-dogname">Dogs: Lily and Richie</p>
+                                <p class="testimonials__carousel_block-comment paragraph_default_text">"We've been
+                                    taking two of our
+                                    dogs to Dream Dog
+                                    since
+                                    its foundation, and we just love this fantastic place! Lily and
+                                    Richie love it too. To tell truth, we think they even look FORWARD to staying here!
+                                    Very
+                                    professional and friendly team. Highly recommended!"</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonials__carousel_block">
+                                <div class="testimonials__carousel_block-imgwrapper">
+                                    <img class="testimonials__carousel_block-photo"
+                                        src="img/testimonials/julia-macgorg.jpg" alt="julia Macgorg">
+                                </div>
+                                <p class="testimonials__carousel_block-name">Julia Macgorg</p>
+                                <p class="testimonials__carousel_block-dogname">Director of Media at Legal Company</p>
+                                <p class="testimonials__carousel_block-comment paragraph_default_text">“Quantum is a
+                                    reliable and
+                                    professional company
+                                    that
+                                    applies high technology and creates exclusive programs for the
+                                    clients. We highly appreciate this approach and will definitely continue our
+                                    fruitful
+                                    cooperation
+                                    with them.”</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="testimonials__carousel_block-name">Amanda Peterson</p>
-                    <p class="testimonials__carousel_block-dogname">Dog: Body</p>
-                    <p class="testimonials__carousel_block-comment paragraph_default_text">"I was happy to work with
-                        Quantum because their
-                        efficient solutions helped us improve plenty of business processes. As a
-                        result, our clients receive their products faster and are more satisfied with our services.
-                        They
-                        deserve the highes grade!"</p>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="testimonials__carousel_block">
-                    <div class="testimonials__carousel_block-imgwrapper">
-                        <img class="testimonials__carousel_block-photo" src="img/testimonials/kim-bernard.jpg"
-                            alt="Kim Bernard">
-                    </div>
-                    <p class="testimonials__carousel_block-name">Kim Bernard</p>
-                    <p class="testimonials__carousel_block-dogname">Dogs: Lily and Richie</p>
-                    <p class="testimonials__carousel_block-comment paragraph_default_text">"We've been taking two of our
-                        dogs to Dream Dog
-                        since
-                        its foundation, and we just love this fantastic place! Lily and
-                        Richie love it too. To tell truth, we think they even look FORWARD to staying here! Very
-                        professional and friendly team. Highly recommended!"</p>
-                </div>
-                <div class="testimonials__carousel_block">
-                    <div class="testimonials__carousel_block-imgwrapper">
-                        <img class="testimonials__carousel_block-photo" src="img/testimonials/julia-macgorg.jpg"
-                            alt="julia Macgorg">
-                    </div>
-                    <p class="testimonials__carousel_block-name">Julia Macgorg</p>
-                    <p class="testimonials__carousel_block-dogname">Director of Media at Legal Company</p>
-                    <p class="testimonials__carousel_block-comment paragraph_default_text">“Quantum is a reliable and
-                        professional company
-                        that
-                        applies high technology and creates exclusive programs for the
-                        clients. We highly appreciate this approach and will definitely continue our fruitful
-                        cooperation
-                        with them.”</p>
-                </div>
+
             </div>
         </section>
         <!--Artem's End block-->
@@ -597,6 +632,9 @@
         <p class="last-text">©Created by "404 Brain Not Found" </p>
     </footer>
     <!--khuda oleh end Block-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
