@@ -39,5 +39,23 @@
  .slide__read-more{
     padding-top: 30px;
     margin-top: auto;
-    
  }
+
+ @media(min-width:680px) {
+  .blog__carousel {
+    width: 575px;
+    padding-top: 70px;
+  }
+@media(min-width:992px) {
+  .blog {
+    padding: 85px 0 100px 0;
+  }
+  .blog__carousel {
+    width: 865px;
+  }
+}
+@media(min-width:1440px) {
+  .blog__carousel {
+    width: 1156px;
+  }
+}
