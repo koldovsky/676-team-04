@@ -44,8 +44,8 @@ dog-training-videos {
     object-fit: contain;
 }
 @media (max-width: 801px){
- .dog-training-videos__container{
-     flex-direction: column;
+    .dog-training-videos__container{
+        flex-direction: column;
  }
 }
 
