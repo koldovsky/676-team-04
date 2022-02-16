@@ -10,11 +10,11 @@
     font-family: Nunito, sans-serif;
     font-size: 50px;
     font-weight: 700;
-}.dog-training-videos {
+}
+dog-training-videos {
     background: #553c29;
     text-align: center;
     padding: 85px 0 100px 0;
-    
 }
 .dog-training-videos__title {
     text-align: center;
@@ -27,10 +27,25 @@
 .dog-training-videos__container {
     display: flex;
     margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
-.dog-training-videos__container__photos img {
-    margin: 20px;
-    max-width: 353px;
-    height: 227px; 
-    max-width: 560px;
+.dog-training-videos__container__box {
+        width: 353px;
+        height: 227px; 
+        margin: 40px 20px;
+    
+    }
+.dog-training-videos__container__photos {
+    display: block;
+    width: 100%;
+    object-fit: contain;
 }
+@media (max-width: 801px){
+    .dog-training-videos__container{
+        flex-direction: column;
+ }
+}
+
