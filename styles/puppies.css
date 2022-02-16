@@ -82,7 +82,7 @@
   color: var(--title-button-text-color);
   text-align: center;
   border: 2px solid var(--details-link-border);
-  padding: px 28px;
+  padding: 0 28px;
   border-radius: 22px;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -112,7 +112,6 @@
   height: 38px;
   padding: 10px 30px;
   margin-bottom: auto;
-  border-radius: auto;
   align-self: start;
   box-sizing: border-box;
   background-color: var(--title-button-text-color);
