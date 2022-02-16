@@ -1,104 +1,141 @@
 /*Subscribe for new litters form*/
 
 .puppies_subscribe_litters {
-background: var(--button-hover-line-color);
-}
-
-.puppies_subscribe_litters {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-bottom: 50px;
-    margin-top: 50px;
-   
+  background: var(--button-hover-line-color);
+  display: grid;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .puppies_subscribe_litters-inner {
-    display: grid;
-    grid-template-columns: auto 30%;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 90px;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
-    z-index: 1;
-    max-width: 1200px;
-    margin: 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+  grid-row-gap: 5px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .puppies_side-text {
- display: grid;
- justify-content: center;
- color: var(--text-hover-color); 
- padding-left: 24px;
- padding-right: 24px;  
- 
-width: auto;
-    
+  display: grid;
+  justify-content: center;
+  color: var(--text-hover-color);
+  padding-left: 24px;
+  padding-right: 24px;
+
+  width: auto;
 }
 .puppies_litter-sub-title {
-
-line-height: 1;
-letter-spacing: 0;
-font-family: Nunito, sans-serif;
-font-weight: 900;
-font-size: 38px;
-text-transform: none;
-text-decoration: none;
-font-style: normal;
-padding-bottom: 50px;
-margin-top: 23.5px;
+  justify-content: center;
+  line-height: 1;
+  letter-spacing: 0;
+  font-family: Nunito, sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+  padding-bottom: 38px;
+  margin-top: 23.5px;
 }
 
 .puppies_sub-text {
-font-size: 20px;
-font-family: Nunito, sans-serif;
-font-weight: bold;
-line-height: 1.4;
-letter-spacing: 0;
+  font-size: 20px;
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0;
 }
 
 .puppies__subscribe-form {
- display: grid;  
- grid-template-rows: 1fr 1fr;
- align-items: center;
- justify-content: center;
-}
-.puppies_subscribe-button {
-display: block;
-margin: auto;
-width: auto;
-font-size: 15px;
-line-height: 1em;
-letter-spacing: 0;
-text-transform: uppercase;
-font-family: "Poppins", sans-serif;
-font-weight: 600;
-color: var(--title-button-text-color);
-text-align: center;
-border: 2px solid var(--details-link-border);
-padding: px 28px;
-border-radius: 22px;
-margin-bottom: 30px;
-margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height: 100%;
 }
 
+.puppies_subscribe-button {
+  display: block;
+  margin: auto;
+  width: auto;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--title-button-text-color);
+  text-align: center;
+  border: 2px solid var(--details-link-border);
+  padding: px 28px;
+  border-radius: 22px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.puppies_subscribe-email-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.puppies_subscribe-email-form > .puppies_email {
+  flex: 4;
+  border: 1px solid;
+  border: hidden;
+  height: 38px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+
+.puppies_subscribe-email-form > .puppies_subscribe-button {
+  flex: 4;
+  border: 1px solid;
+  border: hidden;
+  height: 38px;
+  padding: 10px 30px;
+  margin-bottom: auto;
+  border-radius: auto;
+  align-self: start;
+  box-sizing: border-box;
+  background-color: var(--title-button-text-color);
+  color: var(--text-hover-color);
+}
+
+.puppies_subscribe-button:hover {
+  background-color: var(--puppies-subscribe-button);
+  color: var(--text-hover-color);
+}
 /*Carousel with puppies*/
 
 #puppies_carousel {
-    width: 1155px;
-    padding-top: 70px;
-    margin: auto;
-    display: flex;
-    overflow-x: hidden;
-    padding-bottom: 20px;
-    position: relative;
+  width: 1155px;
+  padding-top: 70px;
+  margin: auto;
+  display: flex;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 .puppies_carousel-inner {
-    display:flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
