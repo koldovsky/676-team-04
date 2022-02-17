@@ -1,7 +1,9 @@
 .blog {
-    background: url(/img/blog-pictures/blog_background.png) 0% 60.13% / cover no-repeat;
-    font-family: "Nunito", sans-serif;
-    padding: 85px 0 95px 0;
+  background:rgba(247, 243, 231, 0.91) url(/img/blog-pictures/blog_background.png) 0% 60.13% / cover no-repeat; 
+  transition: opacity .3s ease-out;
+  font-family: "Nunito", sans-serif;
+
+  padding: 85px 0 95px 0;
   }
 .blog__carousel {
     padding-top: 55px;
