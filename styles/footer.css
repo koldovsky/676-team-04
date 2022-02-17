@@ -1,5 +1,7 @@
-.footer {
+footer{
     background: var(--section-background);
+}
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -38,11 +40,8 @@ justify-content: start;
 padding-bottom: 30px;
 vertical-align: baseline;
 }
+.paragraph-text-end{
+    display: flex;
+    justify-content: space-between;
 
-.created {
-    text-align: start;
-}
-.reserved {
-    text-align: end;
-    margin-left: 50%;
 }
