@@ -1,17 +1,19 @@
 .our-past-dogs {
   padding: 85px 0 95px 0;
-  margin: 0 auto;
+  margin: auto;
 }
-
+.our-past-dogs__title {
+  margin-top: 0;
+}
 .our-past-dogs__container {
   padding: 0 24px;
 }
 
-.our-past-dogs__container_item:first-of-type {
+.our-past-dogs__container__item:first-of-type {
   margin-top: 55px;
 }
 
-.our-past-dogs__container_item {
+.our-past-dogs__container__item {
   background: var(--section-background);
   display: flex;
   flex-direction: column;
@@ -19,15 +21,15 @@
   margin-top: 50px;
 }
 
-.our-past-dogs__container_item img {
+.our-past-dogs__container__item img {
   display: block;
   width: 100%;
-  max-height: 230px;
+  max-height: 156px;
   object-fit: cover;
-  object-position: 44.908% 72.119%
+  object-position: 44.908% 72.119%;
 }
 
-.our-past-dogs__container_item .detailed-info {
+.our-past-dogs__container__item .detailed-info {
   display: block;
   margin-top: 28px;
 }
@@ -37,10 +39,10 @@
   width: 100%;
 }
 
-.item__text_h3 {
+.item__text__h3 {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.4;
   letter-spacing: 0;
   color: var(--title-button-text-color);
@@ -48,16 +50,15 @@
   flex-direction: column;
 }
 
-.item__text_h3 span {
+.item__text__h3 span {
   margin-top: 5px;
   font-family: sans-serif;
   font-weight: 300;
 }
 
-.item__text_description {
+.item__text__description {
   margin-top: 30px;
   color: var(--secondary-paragraph-text);
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0;
@@ -67,39 +68,39 @@
   margin-top: 50px;
 }
 
-@media (min-width:480px) {
+@media (min-width: 480px) {
   .item__text {
     padding: 39px 43px;
   }
 
-  .our-past-dogs__container_item img {
+  .our-past-dogs__container__item img {
     max-height: 360px;
     min-width: 290px;
   }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .our-past-dogs__container {
     padding: 0 32px;
   }
 
-  .our-past-dogs__container_item {
+  .our-past-dogs__container__item {
     padding: 46px 52px;
     margin-top: 30px;
     flex-direction: row;
   }
 
-  .our-past-dogs__container_item:nth-child(even) {
+  .our-past-dogs__container__item:nth-child(even) {
     flex-direction: row-reverse;
   }
 
-  .our-past-dogs__container_item:first-of-type {
+  .our-past-dogs__container__item:first-of-type {
     margin-top: 70px;
   }
 
-  .our-past-dogs__container_item img {
+  .our-past-dogs__container__item img {
     height: 100%;
-    width: 40vw;
+    width: 39.1vw;
     max-height: 530px;
   }
 
@@ -108,14 +109,14 @@
     width: 100%;
   }
 
-  .item__text_h3 {
+  .item__text__h3 {
     font-size: 19px;
     flex-direction: row;
     justify-content: space-between;
     width: 76%;
   }
 
-  .item__text_h3 span {
+  .item__text__h3 span {
     margin-top: 0;
   }
 
@@ -124,7 +125,7 @@
   }
 }
 
-@media(min-width:992px) {
+@media (min-width: 992px) {
   .our-past-dogs {
     padding: 85px 0 100px 0;
   }
@@ -133,7 +134,7 @@
     padding: 0 40px;
   }
 
-  .our-past-dogs__container_item {
+  .our-past-dogs__container__item {
     padding: 60px 70px;
   }
 
@@ -145,12 +146,12 @@
     font-size: 20px;
   }
 
-  .our-past-dogs__container_item img {
+  .our-past-dogs__container__item img {
     max-height: 440px;
   }
 }
 
-@media(min-width:1280px) {
+@media (min-width: 1280px) {
   .our-past-dogs {
     padding: 85px 0 90px 0;
     max-width: 1200px;
@@ -158,17 +159,10 @@
 
   .our-past-dogs__container {
     padding: 0 15px;
-    margin: 0 40px;
   }
 
   .item__img img {
     width: 515px;
     max-height: 421px;
-  }
-}
-
-@media(min-width:1440px) {
-  .our-past-dogs__container {
-    margin: 0 20px;
   }
 }

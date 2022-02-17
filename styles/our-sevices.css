@@ -1,7 +1,15 @@
 .our-services {
-  background: url(../img/services/background.png) 0% 60.13% / cover no-repeat;
+  background-image: linear-gradient(
+      rgba(247, 243, 231, 0.92),
+      rgba(247, 243, 231, 0.92)
+    ),
+    url(../img/services/background.webp);
   font-family: "Nunito", sans-serif;
   padding: 85px 0 95px 0;
+}
+
+.our-services__title {
+  margin-top: 0;
 }
 
 .our-services__carousel {
@@ -11,10 +19,10 @@
   overflow-x: hidden;
   padding-bottom: 20px;
   position: relative;
-  width: 283px;
+  width: 270px;
 }
 
-.our-services__carousel_slide {
+.our-services__carousel__slide {
   min-width: 270px;
   margin: 0 20px 0 0;
   padding: 20px;
@@ -27,10 +35,8 @@
   box-shadow: 0 6px 12px 0 rgb(146 156 179 / 15%);
 }
 
-.our-services__carousel_slide img {
+.our-services__carousel__slide img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   object-fit: cover;
   height: 148.2px;
@@ -54,10 +60,6 @@
   margin-top: auto;
 }
 
-.our-services__carousel::-webkit-scrollbar {
-  display: none;
-}
-
 .our-services__carousel .prev,
 .next {
   position: absolute;
@@ -72,32 +74,32 @@
 
 .our-services__carousel .next {
   top: 220px;
-  right: 7px;
+  right: -8px;
 }
 
 .our-services .main-btn {
   margin-top: 50px;
 }
 
-@media(min-width:680px) {
+@media (min-width: 680px) {
   .our-services__carousel {
-    width: 575px;
+    width: 560px;
     padding-top: 70px;
   }
 }
 
-@media(min-width:992px) {
+@media (min-width: 992px) {
   .our-services {
     padding: 85px 0 100px 0;
   }
 
   .our-services__carousel {
-    width: 865px;
+    width: 850px;
   }
 }
 
-@media(min-width:1440px) {
+@media (min-width: 1440px) {
   .our-services__carousel {
-    width: 1156px;
+    width: 1140px;
   }
 }
