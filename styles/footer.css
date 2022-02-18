@@ -23,6 +23,7 @@ footer{
     margin-left: 50%;
 }
 .footer-navbar-logo {
+    margin-left: 40px;
     margin-top: 25px;
     text-align: left;
     font-size: 24px; 
@@ -41,8 +42,9 @@ footer{
     font-weight: bold;
 }
 .footer-slide__text {
+ margin-left: 40px;   
 padding-top: 30px;
-max-width: 30%;
+max-width: 60%;
 display: block;
 font-size: inherit;
 color: var(--foter-slide-text);
@@ -51,6 +53,9 @@ padding-bottom: 30px;
 vertical-align: baseline;
 }
 .paragraph-text-end{
+margin-left: 40px;
+margin-right: 40px;
+
 font-size: inherit;
 color: var(--foter-slide-text);
 display: flex;
