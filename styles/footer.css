@@ -51,16 +51,16 @@ color: var(--foter-slide-text);
 justify-content: start;
 padding-bottom: 30px;
 vertical-align: baseline;
+font-weight: bold;
 }
 .paragraph-text-end{
 margin-left: 40px;
 margin-right: 40px;
-
-font-size: inherit;
+font-size: 11px;
 color: var(--foter-slide-text);
 display: flex;
 justify-content: space-between;
-font-weight: bold;
+font-weight: 400;
 }
 
 .btn-footer {
