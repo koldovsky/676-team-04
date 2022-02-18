@@ -30,6 +30,16 @@ footer{
     font-weight: bold;
 }
 
+.footer-menu__text {
+    color: var(--default-paragraph-text);
+    font-size: 20px;
+    font-weight: bold;
+}
+.follow-title {
+    color: var(--default-paragraph-text);
+    font-size: 25px;
+    font-weight: bold;
+}
 .footer-slide__text {
 padding-top: 30px;
 max-width: 30%;
@@ -41,7 +51,27 @@ padding-bottom: 30px;
 vertical-align: baseline;
 }
 .paragraph-text-end{
-    display: flex;
-    justify-content: space-between;
+font-size: inherit;
+color: var(--foter-slide-text);
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+}
 
+.btn-footer {
+justify-content: baseline; 
+font-size: 30px;
+color:var(--button-hover-line-color);
+text-transform: uppercase;
+font-family: "Poppins", sans-serif;
+}
+.footer-icons{
+    display: flex;
+   column-gap: 30px;
+ 
+
+    
+    
+    
+    
 }
