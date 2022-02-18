@@ -1,5 +1,6 @@
 footer{
     background: var(--section-background);
+    padding-top: 85px;
 }
 .footer {
     display: grid;
@@ -42,7 +43,7 @@ footer{
     font-weight: bold;
 }
 .footer-slide__text {
- margin-left: 40px;   
+margin-left: 40px;   
 padding-top: 30px;
 max-width: 60%;
 display: block;
@@ -53,7 +54,7 @@ padding-bottom: 30px;
 vertical-align: baseline;
 font-weight: bold;
 }
-.paragraph-text-end{
+.paragraph-text-end{   
 margin-left: 40px;
 margin-right: 40px;
 font-size: 11px;
@@ -61,6 +62,7 @@ color: var(--foter-slide-text);
 display: flex;
 justify-content: space-between;
 font-weight: 400;
+padding-top:90px;
 }
 
 .btn-footer {
@@ -73,10 +75,4 @@ font-family: "Poppins", sans-serif;
 .footer-icons{
     display: flex;
    column-gap: 30px;
- 
-
-    
-    
-    
-    
 }
