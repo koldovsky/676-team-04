@@ -8,6 +8,7 @@
   <title>Dog Kennel</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="styles/index.css" />
 </head>
 
@@ -243,88 +244,91 @@
     <section class="our-services">
       <h2 class="our-services__title">Our Services</h2>
       <div class="our-services__stripe horizontal-line"></div>
-      <div class="our-services__carousel">
-        <span class="prev"><img src="img/services/arrow-left.svg" alt="arrow left" /></span>
-        <span class="next"><img src="img/services/arrow-right.svg" alt="arrow right" /></span>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/litter-registration.jpeg" alt="Litter registration" />
-          <h3 class="slide__h3 dogs-names-breeds-text">
-            Litter Registration
-          </h3>
-          <p class="slide__text paragraph_default_text">
-            Register your litter and show you are a responsible breeder and
-            your puppies meet all the breed standards!
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/register-puppy.jpeg" alt="Register puppy" />
-          <h3 class="slide__h3 dogs-names-breeds-text">Register a Puppy</h3>
-          <p class="slide__text paragraph_default_text">
-            Permanently record your puppy’s place in breed history and get
-            access to resources and services for every stage of your dog’s
-            life.
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/dog-grooming.jpeg" alt="Dog Grooming & Spa" />
-          <h3 class="slide__h3 dogs-names-breeds-text">Dog Grooming & Spa</h3>
-          <p class="slide__text paragraph_default_text">
-            We provide head to tail grooming for your pet and also offer
-            toenail trimming, smoothing, coloring, and polishing.
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/dog-shuttle.jpeg" alt="Dog Shuttle" />
-          <h3 class="slide__h3 dogs-names-breeds-text">Dog Shuttle</h3>
-          <p class="slide__text paragraph_default_text">
-            We can arrange safe transport of your pet in our specialized dog
-            taxi from your location and will return him in time.
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/dog-hotel-boarding.jpeg" alt="Dog Hotel & Boarding" />
-          <h3 class="slide__h3 dogs-names-breeds-text">
-            Dog Hotel & Boarding
-          </h3>
-          <p class="slide__text paragraph_default_text">
-            We have an opportunity to give your dog a second home away from
-            home to relax and enjoy when you are away.
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/dog-daycare.jpeg" alt="Dog Daycare" />
-          <h3 class="slide__h3 dogs-names-breeds-text">Dog Daycare</h3>
-          <p class="slide__text paragraph_default_text">
-            During the day we'll train, feed, groom (if needed), and play with
-            your dog in our safe and friendly daycare facility.
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/dog-training.jpeg" alt="Dog Training" />
-          <h3 class="slide__h3 dogs-names-breeds-text">Dog Training</h3>
-          <p class="slide__text paragraph_default_text">
-            We offer private and group dog training classes with our
-            professional instructor who will improve your dog's behavior.
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
-        <article class="our-services__carousel__slide">
-          <img src="img/services/additional-services.jpeg" alt="Pugs" />
-          <h3 class="slide__h3 dogs-names-breeds-text">
-            Additional Services
-          </h3>
-          <p class="slide__text paragraph_default_text">
-            Transportation, relocation, pet identification, health clinic,
-            retail, breeding info, and more.
-          </p>
-          <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
-        </article>
+      <div class="our-services__carousel swiper-container">
+        <div class="swiper-wrapper">
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/litter-registration.jpeg" alt="Litter registration" />
+            <h3 class="slide__h3 dogs-names-breeds-text">
+              Litter Registration
+            </h3>
+            <p class="slide__text paragraph_default_text">
+              Register your litter and show you are a responsible breeder and
+              your puppies meet all the breed standards!
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/register-puppy.jpeg" alt="Register puppy" />
+            <h3 class="slide__h3 dogs-names-breeds-text">Register a Puppy</h3>
+            <p class="slide__text paragraph_default_text">
+              Permanently record your puppy’s place in breed history and get
+              access to resources and services for every stage of your dog’s
+              life.
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/dog-grooming.jpeg" alt="Dog Grooming & Spa" />
+            <h3 class="slide__h3 dogs-names-breeds-text">Dog Grooming & Spa</h3>
+            <p class="slide__text paragraph_default_text">
+              We provide head to tail grooming for your pet and also offer
+              toenail trimming, smoothing, coloring, and polishing.
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/dog-shuttle.jpeg" alt="Dog Shuttle" />
+            <h3 class="slide__h3 dogs-names-breeds-text">Dog Shuttle</h3>
+            <p class="slide__text paragraph_default_text">
+              We can arrange safe transport of your pet in our specialized dog
+              taxi from your location and will return him in time.
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/dog-hotel-boarding.jpeg" alt="Dog Hotel & Boarding" />
+            <h3 class="slide__h3 dogs-names-breeds-text">
+              Dog Hotel & Boarding
+            </h3>
+            <p class="slide__text paragraph_default_text">
+              We have an opportunity to give your dog a second home away from
+              home to relax and enjoy when you are away.
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/dog-daycare.jpeg" alt="Dog Daycare" />
+            <h3 class="slide__h3 dogs-names-breeds-text">Dog Daycare</h3>
+            <p class="slide__text paragraph_default_text">
+              During the day we'll train, feed, groom (if needed), and play with
+              your dog in our safe and friendly daycare facility.
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/dog-training.jpeg" alt="Dog Training" />
+            <h3 class="slide__h3 dogs-names-breeds-text">Dog Training</h3>
+            <p class="slide__text paragraph_default_text">
+              We offer private and group dog training classes with our
+              professional instructor who will improve your dog's behavior.
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+          <article class="our-services__carousel__slide swiper-slide">
+            <img src="img/services/additional-services.jpeg" alt="Pugs" />
+            <h3 class="slide__h3 dogs-names-breeds-text">
+              Additional Services
+            </h3>
+            <p class="slide__text paragraph_default_text">
+              Transportation, relocation, pet identification, health clinic,
+              retail, breeding info, and more.
+            </p>
+            <a href="#learn-more" class="slide__learn-more details_link">Learn more</a>
+          </article>
+        </div>
+        <span class="prev swiper-button-prev"></span>
+        <span class="next swiper-button-next"></span>
+        <div class="swiper-pagination"></div>
       </div>
       <a href="#all-services" class="our-services__all main-btn">All services</a>
     </section>
@@ -644,5 +648,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2c8156b5a5.js" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/carousel-our-services.js"></script>
 </body>
 </html>
